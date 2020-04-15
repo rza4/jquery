@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+/**title {}**/
+}
+head {
+    background-color: lightblue;
+    padding: inherit whitesmoke;
+}
+body {
+  font: 30px;
+    background-color:mistyrose;
+    font-family: sans-serif monospace;
+    font-style: oblique;
+}
+.accordion { 
+}
+.accordion h2,
+.accordion p {
+    background-color: lightpink;
+}
+.accordion h2last-of-type,
+.accordion plast-of-type {
+  border-bottom: 0px whitesmoke;
+}
+.accordion h2 a,
+.accordion p a {
+  display: block;
+  color: black;
+  font-weight: bold;
+}
+
+.accordion h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.accordion p {
+  border-top: 0;
+  font-size: 12px;
+  background: mistyrose;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flow-root;
+}
+.accordion p:last-of-type {
+  border-top: 1px mistyrose;
+  position: relative;
+  top: -1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.myimg {float: center;}
